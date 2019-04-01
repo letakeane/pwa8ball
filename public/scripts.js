@@ -1,14 +1,35 @@
-const Shake = require('shake.js');
+(() => {
+  document.ready(() => {
+    const Shake = require('shake.js');
+    let appDirections = document.querySelector('.instructions');
+    let appAnswer = document.querySelector('.answer');
 
-const shakeEvent = new Shake({
-  threshold: 15,
-  timeout: 1000
-});
+    appDirections.innerText = 'Hit the space bar to reveal your answer!'
 
-myShakeEvent.start();
+    window.addEventListener('click', () => {
+      console.log('CLICKED!');
+    })
 
-window.addEventListener('shake', shakeEventDidOccur, false);
+    document.querySelector('button').addEventListener('click', () => {
+      console.log('You clicked the button!')
+    })
 
-const shook = () => {
-  alert('SHOOK!');
-}
+
+    // const shakeEvent = new Shake({
+      //   threshold: 15,
+      //   timeout: 1000
+      // });
+      const shakeEvent = new Shake();
+
+      myShakeEvent.start();
+
+      window.addEventListener('shake', shakeEventDidOccur, false);
+
+      const shook = () => {
+        alert('SHOOK!');
+      }
+
+      console.log('LOADED!');
+
+  })
+})()
