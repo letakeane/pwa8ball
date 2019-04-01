@@ -3,23 +3,23 @@
   "short_name": "PW8ball",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#2196F3",
-  "description": "SHake to make decisions",
+  "background_color": "magenta",
+  "description": "Shake to make decisions",
   "icons": [{
-    "src": "https://placebear.com/128/128",
-    "type": "image/png",
+    "src": "https://i.imgur.com/xxLgYER.jpg",
+    "type": "image/jpg",
     "sizes": "128x128"
   }, {
-    "src": "https://placebear.com/152/152",
-    "type": "image/png",
+    "src": "https://i.imgur.com/bUtaCad.jpg",
+    "type": "image/jpg",
     "sizes": "152x152"
   }, {
-    "src": "https://placebear.com/144/144",
-    "type": "image/png",
+    "src": "https://i.imgur.com/f7pwqGL.jpg",
+    "type": "image/jpg",
     "sizes": "144x144"
   }, {
-    "src": "https://placebear.com/192/192",
-    "type": "image/png",
+    "src": "https://i.imgur.com/KDJXhWE.jpg",
+    "type": "image/jpg",
     "sizes": "192x192"
   }]
 }
